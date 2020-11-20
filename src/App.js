@@ -8,9 +8,6 @@ function App() {
     <div >
       <WhatWeDo></WhatWeDo>
       <StayRunning></StayRunning>
-      <div style={{height: '100px'}} className="delete"></div>
-
-      
     </div>
   );
 }
