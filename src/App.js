@@ -1,4 +1,6 @@
 import React from 'react';
+import Achievements from './Component/Achievements/Achievements';
+import DedicatedTeams from './Component/DedicatedTeams/DedicatedTeams';
 import StayRunning from './Component/StayRunning/StayRunning';
 import WhatWeDo from './Component/WhatWeDo/WhatWeDo';
 import {
@@ -18,6 +20,8 @@ function App() {
       <Banner/>
       <WhatWeDo/>
       <StayRunning/>
+      <Achievements></Achievements>
+      <DedicatedTeams></DedicatedTeams>
     </Router>   
   );
 }

@@ -1,0 +1,10 @@
+.hide-line{
+    background-color: #bef1e2;
+}
+.hidden-button{
+    display: none;
+}
+
+.team-card:hover .hidden-button{
+    display: block;
+}
