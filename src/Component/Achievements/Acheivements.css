@@ -1,12 +1,24 @@
+.main-acheivements {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba(210, 230, 245, 0.1) 
 
-.box-image{
-   
 }
+
+.styledFont{
+    font-family: "Yeseva One", sans-serif;
+}
+.box-image{
+    /* background-color: grey; */
+    filter: invert(100%);
+    -webkit-filter: invert(50%);
+}
+
 .achievementStyleOne {
     padding: 10px;
     border-radius: 0;
     background: white;
-    box-shadow: 0px 0px 10px 0px lightgray;
+    box-shadow: 0px 0px 30px 0px rgb(179, 215, 240);
     color: #6B6B6B;
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
@@ -15,7 +27,7 @@
     padding: 10px;
     border-radius: 0;
     background: white;
-    box-shadow: 0px 0px 10px 0px lightgray;
+    box-shadow: 0px 0px 30px 0px rgb(223, 179, 240);
     color: #6B6B6B;
     border-top-left-radius: 70px;
     border-bottom-right-radius: 70px;
@@ -24,4 +36,20 @@
     background: rgba(0, 0, 0, 0) linear-gradient(45deg, #2DB9EF, #1BD5BE 90%) repeat scroll 0% 0%;
     color: white;
     cursor: pointer;
+
 }
+
+.achievementStyleOne:hover .box-image{
+    filter: brightness(0) invert(1);
+}
+.achievementStyleTwo:hover .box-image{
+    filter: brightness(0) invert(1);
+}
+
+@media (min-width: 576px) {
+    .col-sm-6{
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+    }
+    
+  }

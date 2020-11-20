@@ -5,6 +5,24 @@
     display: none;
 }
 
+.team-card:hover .card{
+    box-shadow: 0px 0px 10px 0px rgb(149, 168, 182);
+    border: 3px solid rgb(22, 197, 153);
+}
 .team-card:hover .hidden-button{
     display: block;
 }
+
+.team-card:hover .hide-line{
+    color: white;
+}
+
+.btn-curved{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 44px;
+    width: 125px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, #1BD5BE, #2DB9EF 90%) repeat scroll 0% 0%;
+    border: none;
+    color: #fff;
+  }

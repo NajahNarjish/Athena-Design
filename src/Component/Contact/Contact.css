@@ -1,0 +1,31 @@
+.contact-main{
+    background: rgba(210, 230, 245, 0.1) 
+}
+.contact-btn{
+    height: 44px;
+    width: 125px;
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, #1BD5BE, #2DB9EF 90%) repeat scroll 0% 0%;
+    border: none;
+    color: #fff;
+  }
+
+  .contact-text{
+      color: rgb(98, 96, 96);
+    font-size: 12px;
+  }
+  .contact-logo{
+    display: flex;
+  justify-content: start;
+}
+  @media screen and (max-width: 600px) {
+    .contact-text{
+        text-align: center;
+        color: black;
+        font-size: inherit;
+    }
+    .contact-logo{
+        display: flex;
+  justify-content: center;
+    }
+  
+  }

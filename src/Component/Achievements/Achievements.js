@@ -7,65 +7,66 @@ import './Acheivements.css'
 
 const Achievements = () => {
     return (
-        <div className="container">
+        <div className="main-acheivements">
+        <div className="container ">
             <div className="row">
-                <div className="col-md-5 p-5">
+                <div className="col-md-5 p-5 styledFont">
                     <h1>Our Achievements</h1>
-                    <p>It is a long established fact that a reader will be distracted by
+                    <small className="text-secondary">It is a long established fact that a reader will be distracted by
                     the readable content of a page when looking at its layout. The
-                    point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</p>
+                    point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.</small>
                 </div>
-                <div className="col-md-7 ">
+                <div className="col-md-7">
                     <div class="row row-cols-1 row-cols-md-2">
-                        <div class="col mb-4">
-                            <div class="row no-gutters achievementStyleOne">
+                        <div class="col-md-6 mb-4">
+                            <div class="row achievementStyleOne">
                                 <div class="col-md-3 p-1 d-flex align-items-center">
-                                    <img src={img1} class="ml-3 card-img box-image" alt="..." />
+                                    <img src={img1} class="box-image" alt="..." />
                                 </div>
                                 <div class="col-md-8 p-3 d-flex justify-content-center">
                                     <div>
-                                        <h2 class="card-title font-weight-bolder">700+</h2>
-                                        <p class="card-text">Happy Client</p>
+                                        <h2 class="font-weight-bolder">700+</h2>
+                                        <p>Happy Client</p>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="col mb-4">
-                            <div class="row no-gutters achievementStyleTwo">
+                        <div class="col-md-6 mb-4">
+                            <div class="row achievementStyleTwo">
                                 <div class="col-md-3 p-1 d-flex align-items-center">
-                                    <img src={img2} class="ml-3 card-img box-image" alt="..." />
+                                    <img src={img2} class="ml-3 box-image" alt="..." />
                                 </div>
                                 <div class="col-md-8 p-3 d-flex justify-content-center">
                                     <div>
-                                        <h2 class="card-title font-weight-bolder">140+</h2>
-                                        <p class="card-text">Projects Completed</p>
+                                        <h2 class="font-weight-bolder">140+</h2>
+                                        <p>Projects Completed</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col mb-4">
-                            <div class="row no-gutters achievementStyleTwo">
+                        <div class="col-md-6 mb-4">
+                            <div class="row achievementStyleTwo">
                                 <div class="col-md-3 p-1 d-flex align-items-center">
-                                    <img src={img3} class="ml-3 card-img box-image" alt="..." />
+                                    <img src={img3} class="ml-3 box-image" alt="..." />
                                 </div>
                                 <div class="col-md-8 p-3 d-flex justify-content-center">
                                     <div>
-                                        <h2 class="card-title font-weight-bolder">25+</h2>
-                                        <p class="card-text">Crazy Minds</p>
+                                        <h2 class="font-weight-bolder">25+</h2>
+                                        <p>Crazy Minds</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col mb-4">
-                            <div class="row no-gutters achievementStyleOne">
+                        <div class="col-md-6 mb-4">
+                            <div class="row achievementStyleOne">
                                 <div class="col-md-3 p-1 d-flex align-items-center">
-                                    <img src={img4} class="ml-3 card-img box-image" alt="..." />
+                                    <img src={img4} class="ml-3  box-image" alt="..." />
                                 </div>
                                 <div class="col-md-8 p-3 d-flex justify-content-center">
                                     <div>
-                                        <h2 class="card-title font-weight-bolder">75+</h2>
-                                        <p class="card-text">Running Projects</p>
+                                        <h2 class="font-weight-bolder">75+</h2>
+                                        <p>Running Projects</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +74,7 @@ const Achievements = () => {
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
     );
 };

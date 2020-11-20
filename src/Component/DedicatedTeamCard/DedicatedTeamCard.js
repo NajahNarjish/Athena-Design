@@ -15,7 +15,7 @@ const DedicatedTeamCard = (props) => {
                         }
                     </div>
                     <div className='d-flex justify-content-center'>
-                         <button className="hidden-button">Order Now</button>
+                         <button className="hidden-button btn-curved">Order Now</button>
                     </div>
                     
                 </div>

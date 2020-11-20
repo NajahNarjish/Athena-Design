@@ -1,0 +1,8 @@
+.teamContainer{
+    background: rgba(210, 230, 245, 0.1) ;
+    background-image: url(../../images/Group\ 46@2x.png);
+    z-index: -1;
+    background-position: -350px -80px;
+    background-repeat: no-repeat;
+    background-size: 50% 100%; 
+}

@@ -12,6 +12,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeaderNav from './Component/Header/HeaderNav/HeaderNav';
 import Banner from './Component/Header/Banner/Banner';
+import Contact from './Component/Contact/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <StayRunning/>
       <Achievements></Achievements>
       <DedicatedTeams></DedicatedTeams>
+      <Contact></Contact>
     </Router>   
   );
 }
