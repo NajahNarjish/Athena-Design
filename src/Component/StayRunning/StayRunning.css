@@ -1,0 +1,106 @@
+.stayRunning{
+    padding: 20px 0 100px;
+    background-image: url(../../images/Group\ 46@2x.png);
+    background-position: 600px -170px;
+    background-repeat: no-repeat;
+    background-size: 100% 150%;    
+}
+.imageDiv {
+    position: relative;
+}
+.imageDiv:before {
+    position: absolute;
+    content: " ";
+    left: 450px;
+    bottom: -50px;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-image: linear-gradient(150deg, #2af598 0%, #009efd 100%);
+}
+.imageDiv:after {
+    content: " ";
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    width: 58px;
+    height: 58px;
+    border-radius: 35px;
+    background-image: linear-gradient(150deg, #4e5cff 0%, #ae4eff 100%);
+}
+.stayRunning .heading{
+    font-size: 38px;
+    color: #0d052e;
+    font-weight: 400;
+    font-family: "Yeseva One", sans-serif;
+}
+.stayRunning .description{
+    height: 40%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8d8d8d;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.textBtn{
+    padding-left: 70px;
+}
+.contactBtn{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    background: linear-gradient(150deg, #2af598 0%, #009efd 100%);
+    padding: 10px 10px;
+    width: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+}
+
+@media (min-width: 768px) { 
+    .textBtn{
+        padding-left: 40px;
+    }
+    .imageDiv:before {
+        left: 250px;
+        bottom: -50px;
+        width: 25px;
+        height: 25px;
+        border-radius: 35px;
+    }
+    .imageDiv:after {
+        top: 40px;
+        left: 80px;
+        width: 40px;
+        height: 40px;
+        border-radius: 35px;
+    }
+    .contactBtn{
+        padding: 10px 10px;
+        width: 50%;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: none;
+    }
+}
+@media (max-width: 768px) { 
+    .imageDiv:before {
+        width: 0px;
+        height: 0px;
+    }
+    .imageDiv:after {
+        width: 0px;
+        height: 0px;
+    }
+    .textBtn{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contactBtn{
+        padding: 10px 10px;
+        width: 65%;
+    }
+
+}
+

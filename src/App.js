@@ -16,11 +16,9 @@ function App() {
     <Router>
       <HeaderNav/>
       <Banner/>
-      <WhatWeDo></WhatWeDo>
-      <StayRunning></StayRunning>
-
-      
-      </Router>   
+      <WhatWeDo/>
+      <StayRunning/>
+    </Router>   
   );
 }
 
