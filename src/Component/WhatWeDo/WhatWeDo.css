@@ -1,0 +1,48 @@
+.whatWeDo{
+    background-image: linear-gradient( rgba(189, 235, 241, 0.2), rgba(189, 235, 241, 0.2) ),url(../../images/Path\ 74.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    z-index: -1;  
+}
+.whatWeDo img{
+    height: 40%;
+    width: 40%;
+}
+.whatWeDo .main_heading{
+    font-size: 48px;
+    color: #0d052e;
+    font-weight: 400;
+    font-family: "Yeseva One", sans-serif;
+}
+
+.whatWeDo .main_description{
+    font-size: 16px;
+    line-height: 30px;
+    color: #8d8d8d;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.whatWeDo .card_heading{
+    font-size: 24px;
+    color: #34285c;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+.whatWeDo .card_description{
+    font-size: 16px;
+    line-height: 30px;
+    color: #8d8d8d;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 0 10px 25px;
+}
+
+.whatWeDoCard:hover{
+    background-color:#FFFFFF;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 5px 10px 8px #888888;
+
+}
